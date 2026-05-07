@@ -1,0 +1,942 @@
+
+===== colour_final bhop_colour =====
+outer files=116 nested files=341
+shaders={'pbr.vfx': 29, 'sky.vfx': 1}
+entities=[('light_omni2', 677), ('trigger_teleport', 42), ('env_combined_light_probe_volume', 22), ('trigger_multiple', 22), ('info_teleport_destination', 21), ('func_water', 17), ('worldspawn', 1), ('light_environment', 1), ('env_sky', 1), ('post_processing_volume', 1)]
+total_refs=808 missing=399
+MISSING    1 _bakeresourcecache/maps/bhop_colour_baked/env_cubemap_1038.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    1 _bakeresourcecache/maps/bhop_colour_baked/env_cubemap_1104.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    1 _bakeresourcecache/maps/bhop_colour_baked/env_cubemap_1233.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    1 _bakeresourcecache/maps/bhop_colour_baked/env_cubemap_129.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    1 _bakeresourcecache/maps/bhop_colour_baked/env_cubemap_1307.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    1 _bakeresourcecache/maps/bhop_colour_baked/env_cubemap_1451.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    1 _bakeresourcecache/maps/bhop_colour_baked/env_cubemap_1533.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    1 _bakeresourcecache/maps/bhop_colour_baked/env_cubemap_1584.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    1 _bakeresourcecache/maps/bhop_colour_baked/env_cubemap_1754.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    1 _bakeresourcecache/maps/bhop_colour_baked/env_cubemap_1855.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    1 _bakeresourcecache/maps/bhop_colour_baked/env_cubemap_195.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    1 _bakeresourcecache/maps/bhop_colour_baked/env_cubemap_2013.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    1 _bakeresourcecache/maps/bhop_colour_baked/env_cubemap_2203.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    1 _bakeresourcecache/maps/bhop_colour_baked/env_cubemap_2205.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    1 _bakeresourcecache/maps/bhop_colour_baked/env_cubemap_2420.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    1 _bakeresourcecache/maps/bhop_colour_baked/env_cubemap_258.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    1 _bakeresourcecache/maps/bhop_colour_baked/env_cubemap_382.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    1 _bakeresourcecache/maps/bhop_colour_baked/env_cubemap_497.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    1 _bakeresourcecache/maps/bhop_colour_baked/env_cubemap_584.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    1 _bakeresourcecache/maps/bhop_colour_baked/env_cubemap_645.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    1 _bakeresourcecache/maps/bhop_colour_baked/env_cubemap_793.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    1 _bakeresourcecache/maps/bhop_colour_baked/env_cubemap_933.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    2 _bakeresourcecache/maps/bhop_colour_baked/env_light_probe_volume_1038.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    2 _bakeresourcecache/maps/bhop_colour_baked/env_light_probe_volume_1104.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    2 _bakeresourcecache/maps/bhop_colour_baked/env_light_probe_volume_1233.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    2 _bakeresourcecache/maps/bhop_colour_baked/env_light_probe_volume_129.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    2 _bakeresourcecache/maps/bhop_colour_baked/env_light_probe_volume_1307.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    2 _bakeresourcecache/maps/bhop_colour_baked/env_light_probe_volume_1451.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    2 _bakeresourcecache/maps/bhop_colour_baked/env_light_probe_volume_1533.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    2 _bakeresourcecache/maps/bhop_colour_baked/env_light_probe_volume_1584.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    2 _bakeresourcecache/maps/bhop_colour_baked/env_light_probe_volume_1754.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    2 _bakeresourcecache/maps/bhop_colour_baked/env_light_probe_volume_1855.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    2 _bakeresourcecache/maps/bhop_colour_baked/env_light_probe_volume_195.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    2 _bakeresourcecache/maps/bhop_colour_baked/env_light_probe_volume_2013.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    2 _bakeresourcecache/maps/bhop_colour_baked/env_light_probe_volume_2203.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    2 _bakeresourcecache/maps/bhop_colour_baked/env_light_probe_volume_2205.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    2 _bakeresourcecache/maps/bhop_colour_baked/env_light_probe_volume_2420.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    2 _bakeresourcecache/maps/bhop_colour_baked/env_light_probe_volume_258.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    2 _bakeresourcecache/maps/bhop_colour_baked/env_light_probe_volume_382.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    2 _bakeresourcecache/maps/bhop_colour_baked/env_light_probe_volume_497.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    2 _bakeresourcecache/maps/bhop_colour_baked/env_light_probe_volume_584.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    2 _bakeresourcecache/maps/bhop_colour_baked/env_light_probe_volume_645.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    2 _bakeresourcecache/maps/bhop_colour_baked/env_light_probe_volume_793.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    2 _bakeresourcecache/maps/bhop_colour_baked/env_light_probe_volume_933.vtex first_by=maps\bhop_colour.vmap_c
+MISSING    1 bhop_colour_decal.vmat first_by=materials\colour_base\skybox\bhop_colour_decal.vmat_c
+MISSING    1 colour_glass.vmat first_by=materials\colour_base\colour_glass.vmat_c
+MISSING    1 dark_grey.vmat first_by=materials\colour_base\dark_grey.vmat_c
+MISSING    1 default_ents.vents first_by=maps\bhop_colour\entities\default_ents.vents_c
+MISSING    1 finished.vmat first_by=materials\colour_base\stage_decals\finished.vmat_c
+MISSING    1 floor_detail.vmat first_by=materials\colour_base\skybox\floor_detail.vmat_c
+MISSING    1 last_stage_special.vmat first_by=materials\colour_base\stage_decals\last_stage_special.vmat_c
+MISSING    1 map_cp10_2463.vmdl first_by=maps\bhop_colour\entities\map_cp10_2463.vmdl_c
+MISSING    1 map_cp11_2465.vmdl first_by=maps\bhop_colour\entities\map_cp11_2465.vmdl_c
+MISSING    1 map_cp12_2467.vmdl first_by=maps\bhop_colour\entities\map_cp12_2467.vmdl_c
+MISSING    1 map_cp13_2469.vmdl first_by=maps\bhop_colour\entities\map_cp13_2469.vmdl_c
+MISSING    1 map_cp14_2471.vmdl first_by=maps\bhop_colour\entities\map_cp14_2471.vmdl_c
+MISSING    1 map_cp15_2473.vmdl first_by=maps\bhop_colour\entities\map_cp15_2473.vmdl_c
+MISSING    1 map_cp16_2475.vmdl first_by=maps\bhop_colour\entities\map_cp16_2475.vmdl_c
+MISSING    1 map_cp17_2477.vmdl first_by=maps\bhop_colour\entities\map_cp17_2477.vmdl_c
+MISSING    1 map_cp18_2479.vmdl first_by=maps\bhop_colour\entities\map_cp18_2479.vmdl_c
+MISSING    1 map_cp19_2481.vmdl first_by=maps\bhop_colour\entities\map_cp19_2481.vmdl_c
+MISSING    1 map_cp1_2443.vmdl first_by=maps\bhop_colour\entities\map_cp1_2443.vmdl_c
+MISSING    1 map_cp20_2483.vmdl first_by=maps\bhop_colour\entities\map_cp20_2483.vmdl_c
+MISSING    1 map_cp2_2445.vmdl first_by=maps\bhop_colour\entities\map_cp2_2445.vmdl_c
+MISSING    1 map_cp4_2449.vmdl first_by=maps\bhop_colour\entities\map_cp4_2449.vmdl_c
+MISSING    1 map_cp5_2451.vmdl first_by=maps\bhop_colour\entities\map_cp5_2451.vmdl_c
+MISSING    1 map_cp6_2453.vmdl first_by=maps\bhop_colour\entities\map_cp6_2453.vmdl_c
+MISSING    1 map_cp7_2457.vmdl first_by=maps\bhop_colour\entities\map_cp7_2457.vmdl_c
+MISSING    1 map_cp8_2459.vmdl first_by=maps\bhop_colour\entities\map_cp8_2459.vmdl_c
+MISSING    1 map_cp9_2461.vmdl first_by=maps\bhop_colour\entities\map_cp9_2461.vmdl_c
+MISSING    1 map_cp_3_2447.vmdl first_by=maps\bhop_colour\entities\map_cp_3_2447.vmdl_c
+MISSING    1 map_end_2485.vmdl first_by=maps\bhop_colour\entities\map_end_2485.vmdl_c
+MISSING    1 map_start_2441.vmdl first_by=maps\bhop_colour\entities\map_start_2441.vmdl_c
+MISSING    1 maps/bhop_emevaelx3/world_physics.vmdl first_by=maps\bhop_colour\world_physics.vmdl_c
+MISSING   23 materials/colour_base/water/custom_water.vmat first_by=maps\bhop_colour.vmap_c
+MISSING    1 materials/tools/toolsnodraw.vmat first_by=maps\bhop_colour.vmap_c
+MISSING    1 materials/tools/toolsplayerclip.vmat first_by=maps\bhop_colour.vmap_c
+MISSING    1 materials/tools/toolsskybox.vmat first_by=maps\bhop_colour.vmap_c
+MISSING    1 materials/tools/toolstrigger.vmat first_by=maps\bhop_colour.vmap_c
+MISSING    1 materials/tools_postprocess_volume.vmat first_by=maps\bhop_colour.vmap_c
+MISSING    1 n0.vwnod first_by=maps\bhop_colour\worldnodes\n0.vwnod_c
+MISSING    1 n0_lr0_agg_merge_dark_grey_0.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_agg_merge_dark_grey_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_floor_detail_0.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_agg_merge_floor_detail_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_white_0.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_agg_merge_white_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_white_light_0.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_agg_merge_white_light_0.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_mesh_base_fw.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_mesh_base_fw.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge0.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge0.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge1.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge1.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge10.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge10.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge100.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge100.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge101.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge101.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge102.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge102.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge103.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge103.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge104.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge104.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge105.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge105.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge106.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge106.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge107.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge107.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge108.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge108.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge109.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge109.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge11.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge11.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge110.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge110.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge111.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge111.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge112.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge112.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge113.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge113.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge114.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge114.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge115.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge115.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge116.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge116.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge117.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge117.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge118.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge118.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge119.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge119.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge12.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge12.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge120.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge120.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge121.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge121.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge122.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge122.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge123.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge123.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge124.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge124.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge125.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge125.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge126.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge126.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge127.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge127.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge128.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge128.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge129.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge129.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge13.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge13.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge130.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge130.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge131.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge131.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge132.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge132.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge133.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge133.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge134.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge134.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge135.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge135.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge136.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge136.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge137.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge137.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge138.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge138.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge139.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge139.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge14.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge14.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge140.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge140.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge141.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge141.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge142.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge142.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge143.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge143.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge144.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge144.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge145.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge145.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge146.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge146.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge147.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge147.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge148.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge148.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge149.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge149.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge15.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge15.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge150.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge150.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge151.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge151.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge152.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge152.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge153.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge153.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge154.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge154.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge155.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge155.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge156.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge156.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge157.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge157.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge158.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge158.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge159.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge159.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge16.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge16.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge160.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge160.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge161.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge161.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge162.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge162.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge163.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge163.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge164.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge164.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge165.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge165.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge166.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge166.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge167.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge167.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge168.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge168.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge169.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge169.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge17.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge17.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge170.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge170.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge171.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge171.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge172.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge172.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge173.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge173.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge174.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge174.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge175.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge175.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge176.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge176.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge177.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge177.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge178.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge178.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge179.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge179.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge18.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge18.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge180.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge180.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge181.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge181.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge182.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge182.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge183.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge183.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge184.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge184.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge185.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge185.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge186.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge186.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge187.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge187.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge188.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge188.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge189.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge189.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge19.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge19.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge190.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge190.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge191.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge191.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge192.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge192.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge193.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge193.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge194.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge194.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge195.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge195.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge196.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge196.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge197.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge197.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge198.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge198.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge199.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge199.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge2.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge2.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge20.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge20.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge200.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge200.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge201.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge201.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge202.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge202.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge203.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge203.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge204.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge204.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge205.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge205.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge206.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge206.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge207.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge207.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge208.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge208.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge209.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge209.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge21.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge21.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge210.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge210.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge211.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge211.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge212.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge212.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge213.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge213.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge214.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge214.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge215.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge215.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge216.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge216.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge217.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge217.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge218.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge218.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge22.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge22.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge23.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge23.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge24.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge24.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge25.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge25.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge26.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge26.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge27.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge27.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge28.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge28.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge29.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge29.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge3.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge3.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge30.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge30.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge31.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge31.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge32.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge32.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge33.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge33.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge34.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge34.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge35.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge35.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge36.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge36.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge37.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge37.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge38.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge38.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge39.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge39.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge4.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge4.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge40.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge40.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge41.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge41.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge42.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge42.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge43.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge43.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge44.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge44.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge45.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge45.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge46.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge46.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge47.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge47.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge48.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge48.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge49.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge49.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge5.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge5.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge50.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge50.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge51.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge51.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge52.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge52.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge53.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge53.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge54.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge54.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge55.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge55.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge56.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge56.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge57.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge57.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge58.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge58.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge59.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge59.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge6.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge6.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge60.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge60.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge61.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge61.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge62.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge62.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge63.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge63.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge64.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge64.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge65.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge65.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge66.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge66.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge67.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge67.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge68.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge68.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge69.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge69.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge7.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge7.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge70.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge70.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge71.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge71.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge72.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge72.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge73.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge73.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge74.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge74.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge75.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge75.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge76.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge76.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge77.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge77.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge78.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge78.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge79.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge79.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge8.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge8.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge80.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge80.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge81.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge81.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge82.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge82.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge83.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge83.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge84.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge84.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge85.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge85.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge86.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge86.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge87.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge87.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge88.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge88.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge89.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge89.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge9.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge9.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge90.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge90.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge91.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge91.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge92.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge92.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge93.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge93.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge94.vmdl first_by=maps\bhop_colour\worldnodes\n0_lr0_c0_s_cb_nomerge94.vmdl_c
+
+TOP REFS
+ 277 materials/colour_base/colour_glass.vmat
+ 143 materials/default/default_mask_tga_344101f8.vtex
+ 131 materials/colour_base/white.vmat
+ 118 materials/colour_base/dark_grey.vmat
+  87 materials/default/default_ao_tga_559f1ac6.vtex
+  87 materials/default/default_normal_tga_7be61377.vtex
+  69 materials/colour_base/skybox/floor_detail.vmat
+  48 materials/colour_base/skybox/white_light.vmat
+  44 maps/bhop_colour/cubemaps/env_cubemap_array.vtex
+  43 materials/colour_base/skybox/bhop_colour_decal.vmat
+  39 materials/colour_base/skybox/qr_code.vmat
+  23 materials/colour_base/water/custom_water.vmat
+  22 maps\\bhop_colour/lightmaps/env_light_probe_volume_atlas_dlshd.vtex
+  22 maps\\bhop_colour/lightmaps/env_light_probe_volume_atlas.vtex
+   9 materials/colour_base/skybox/stage_3.vmat
+   9 materials/colour_base/stage_decals/stage_5.vmat
+   9 materials/colour_base/stage_decals/stage_9.vmat
+   8 materials/colour_base/white_tga_46d28ce5.vtex
+   7 materials/colour_base/skybox/stage_2.vmat
+   7 materials/colour_base/stage_decals/last_stage_special.vmat
+   7 materials/colour_base/stage_decals/stage_10.vmat
+   7 materials/colour_base/stage_decals/stage_12.vmat
+   7 materials/colour_base/stage_decals/stage_13.vmat
+   7 materials/colour_base/stage_decals/stage_14.vmat
+   7 materials/colour_base/stage_decals/stage_15.vmat
+   7 materials/colour_base/stage_decals/stage_16.vmat
+   7 materials/colour_base/stage_decals/stage_17.vmat
+   7 materials/colour_base/stage_decals/stage_18.vmat
+   7 materials/colour_base/stage_decals/stage_19.vmat
+   7 materials/colour_base/stage_decals/stage_20.vmat
+   7 materials/colour_base/stage_decals/stage_21.vmat
+   7 materials/colour_base/stage_decals/stage_6.vmat
+   7 materials/colour_base/stage_decals/stage_7.vmat
+   7 materials/colour_base/stage_decals/stage_8.vmat
+   5 maps/bhop_colour/worldnodes/n0_lr0_agg_merge_dark_grey_0.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_agg_merge_floor_detail_0.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_agg_merge_white_0.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_agg_merge_white_light_0.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_c0_s_cb_mesh_base_fw.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_c0_s_cb_nomerge0.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_c0_s_cb_nomerge1.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_c0_s_cb_nomerge10.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_c0_s_cb_nomerge100.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_c0_s_cb_nomerge101.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_c0_s_cb_nomerge102.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_c0_s_cb_nomerge103.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_c0_s_cb_nomerge104.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_c0_s_cb_nomerge105.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_c0_s_cb_nomerge106.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_c0_s_cb_nomerge107.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_c0_s_cb_nomerge108.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_c0_s_cb_nomerge109.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_c0_s_cb_nomerge11.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_c0_s_cb_nomerge110.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_c0_s_cb_nomerge111.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_c0_s_cb_nomerge112.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_c0_s_cb_nomerge113.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_c0_s_cb_nomerge114.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_c0_s_cb_nomerge115.vmdl
+   5 maps/bhop_colour/worldnodes/n0_lr0_c0_s_cb_nomerge116.vmdl
+
+===== soul bhop_soulscape =====
+outer files=110 nested files=50
+shaders={'pbr.vfx': 18}
+entities=[('light_omni2', 79), ('info_player_terrorist', 12), ('info_player_counterterrorist', 12), ('info_teleport_destination', 6), ('trigger_teleport', 6), ('trigger_multiple', 2), ('worldspawn', 1), ('light_environment', 1), ('env_sky', 1), ('post_processing_volume', 1), ('info_player_start', 1), ('env_combined_light_probe_volume', 1)]
+total_refs=147 missing=49
+MISSING    1 _bakeresourcecache/maps/bhop_soulscape_baked/env_cubemap_903.vtex first_by=maps\bhop_soulscape.vmap_c
+MISSING    1 bluecpsandother.vmat first_by=materials\rbx\bluecpsandother.vmat_c
+MISSING    1 brighterorange.vmat first_by=materials\rbx\brighterorange.vmat_c
+MISSING    1 default_ents.vents first_by=maps\bhop_soulscape\entities\default_ents.vents_c
+MISSING    1 glowingblue.vmat first_by=materials\rbx\glowingblue.vmat_c
+MISSING    1 glowinggreen.vmat first_by=materials\rbx\glowinggreen.vmat_c
+MISSING    1 glowingornage.vmat first_by=materials\rbx\glowingornage.vmat_c
+MISSING    1 glowingred.vmat first_by=materials\rbx\glowingred.vmat_c
+MISSING    1 glowingyellow.vmat first_by=materials\rbx\glowingyellow.vmat_c
+MISSING    1 greencpsandother.vmat first_by=materials\rbx\greencpsandother.vmat_c
+MISSING    1 greenmain.vmat first_by=materials\rbx\greenmain.vmat_c
+MISSING    1 mainblueblocks.vmat first_by=materials\rbx\mainblueblocks.vmat_c
+MISSING    1 maingrey.vmat first_by=materials\rbx\maingrey.vmat_c
+MISSING    1 mainorgane.vmat first_by=materials\rbx\mainorgane.vmat_c
+MISSING    1 mainred.vmat first_by=materials\rbx\mainred.vmat_c
+MISSING    1 mainyellow.vmat first_by=materials\rbx\mainyellow.vmat_c
+MISSING    1 map_end_877.vmdl first_by=maps\bhop_soulscape\entities\map_end_877.vmdl_c
+MISSING    1 map_start_879.vmdl first_by=maps\bhop_soulscape\entities\map_start_879.vmdl_c
+MISSING    1 materials/tools/toolstrigger.vmat first_by=maps\bhop_soulscape.vmap_c
+MISSING    1 materials/tools_postprocess_volume.vmat first_by=maps\bhop_soulscape.vmap_c
+MISSING    1 n0.vwnod first_by=maps\bhop_soulscape\worldnodes\n0.vwnod_c
+MISSING    1 n0_lr0_agg_merge_bluecpsandother_0.vmdl first_by=maps\bhop_soulscape\worldnodes\n0_lr0_agg_merge_bluecpsandother_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_brighterorange_0.vmdl first_by=maps\bhop_soulscape\worldnodes\n0_lr0_agg_merge_brighterorange_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_glowingblue_0.vmdl first_by=maps\bhop_soulscape\worldnodes\n0_lr0_agg_merge_glowingblue_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_glowinggreen_0.vmdl first_by=maps\bhop_soulscape\worldnodes\n0_lr0_agg_merge_glowinggreen_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_glowingornage_0.vmdl first_by=maps\bhop_soulscape\worldnodes\n0_lr0_agg_merge_glowingornage_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_glowingred_0.vmdl first_by=maps\bhop_soulscape\worldnodes\n0_lr0_agg_merge_glowingred_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_glowingyellow_0.vmdl first_by=maps\bhop_soulscape\worldnodes\n0_lr0_agg_merge_glowingyellow_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_greencpsandother_0.vmdl first_by=maps\bhop_soulscape\worldnodes\n0_lr0_agg_merge_greencpsandother_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_greenmain_0.vmdl first_by=maps\bhop_soulscape\worldnodes\n0_lr0_agg_merge_greenmain_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_mainblueblocks_0.vmdl first_by=maps\bhop_soulscape\worldnodes\n0_lr0_agg_merge_mainblueblocks_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_maingrey_0.vmdl first_by=maps\bhop_soulscape\worldnodes\n0_lr0_agg_merge_maingrey_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_mainorgane_0.vmdl first_by=maps\bhop_soulscape\worldnodes\n0_lr0_agg_merge_mainorgane_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_mainred_0.vmdl first_by=maps\bhop_soulscape\worldnodes\n0_lr0_agg_merge_mainred_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_smoothplastic_16-2b-22-ff-0_0.vmdl first_by=maps\bhop_soulscape\worldnodes\n0_lr0_agg_merge_smoothplastic_16-2b-22-ff-0_0.vmdl_c
+MISSING    1 n0_lr0_c2_s_cb_mesh.vmdl first_by=maps\bhop_soulscape\worldnodes\n0_lr0_c2_s_cb_mesh.vmdl_c
+MISSING    1 skybox.vmat first_by=materials\skybox\skybox.vmat_c
+MISSING    1 smoothplastic_11-11-11-ff-0.vmat first_by=materials\rbx\smoothplastic_11-11-11-ff-0.vmat_c
+MISSING    1 smoothplastic_16-2b-22-ff-0.vmat first_by=materials\rbx\smoothplastic_16-2b-22-ff-0.vmat_c
+MISSING    1 smoothplastic_16-2b22-ff-0.vmat first_by=materials\rbx\smoothplastic_16-2b22-ff-0.vmat_c
+MISSING    1 unnamed_41.vmdl first_by=maps\bhop_soulscape\entities\unnamed_41.vmdl_c
+MISSING    1 unnamed_44.vmdl first_by=maps\bhop_soulscape\entities\unnamed_44.vmdl_c
+MISSING    1 unnamed_47.vmdl first_by=maps\bhop_soulscape\entities\unnamed_47.vmdl_c
+MISSING    1 unnamed_51.vmdl first_by=maps\bhop_soulscape\entities\unnamed_51.vmdl_c
+MISSING    1 unnamed_55.vmdl first_by=maps\bhop_soulscape\entities\unnamed_55.vmdl_c
+MISSING    1 unnamed_61.vmdl first_by=maps\bhop_soulscape\entities\unnamed_61.vmdl_c
+MISSING    1 unnamed_832.vmdl first_by=maps\bhop_soulscape\entities\unnamed_832.vmdl_c
+MISSING    1 world.vwrld first_by=maps\bhop_soulscape\world.vwrld_c
+MISSING    1 world_physics.vmdl first_by=maps\bhop_soulscape\world_physics.vmdl_c
+
+TOP REFS
+  80 materials/default/default_mask_tga_344101f8.vtex
+  54 materials/default/default_ao_tga_559f1ac6.vtex
+  38 materials/rbx/maingrey.vmat
+  29 materials/rbx/smoothplastic_16-2b-22-ff-0.vmat
+  11 materials/rbx/bluecpsandother.vmat
+  11 materials/rbx/glowingred.vmat
+  10 materials/rbx/glowingblue.vmat
+   8 materials/rbx/glowinggreen.vmat
+   8 materials/rbx/mainorgane.vmat
+   7 materials/rbx/glowingornage.vmat
+   7 materials/rbx/mainred.vmat
+   6 materials/rbx/brighterorange.vmat
+   6 materials/rbx/glowingyellow.vmat
+   6 materials/rbx/greencpsandother.vmat
+   6 materials/rbx/greenmain.vmat
+   6 materials/rbx/mainblueblocks.vmat
+   5 maps/bhop_soulscape/worldnodes/n0_lr0_agg_merge_bluecpsandother_0.vmdl
+   5 maps/bhop_soulscape/worldnodes/n0_lr0_agg_merge_brighterorange_0.vmdl
+   5 maps/bhop_soulscape/worldnodes/n0_lr0_agg_merge_glowingblue_0.vmdl
+   5 maps/bhop_soulscape/worldnodes/n0_lr0_agg_merge_glowinggreen_0.vmdl
+   5 maps/bhop_soulscape/worldnodes/n0_lr0_agg_merge_glowingornage_0.vmdl
+   5 maps/bhop_soulscape/worldnodes/n0_lr0_agg_merge_glowingred_0.vmdl
+   5 maps/bhop_soulscape/worldnodes/n0_lr0_agg_merge_glowingyellow_0.vmdl
+   5 maps/bhop_soulscape/worldnodes/n0_lr0_agg_merge_greencpsandother_0.vmdl
+   5 maps/bhop_soulscape/worldnodes/n0_lr0_agg_merge_greenmain_0.vmdl
+   5 maps/bhop_soulscape/worldnodes/n0_lr0_agg_merge_mainblueblocks_0.vmdl
+   5 maps/bhop_soulscape/worldnodes/n0_lr0_agg_merge_maingrey_0.vmdl
+   5 maps/bhop_soulscape/worldnodes/n0_lr0_agg_merge_mainorgane_0.vmdl
+   5 maps/bhop_soulscape/worldnodes/n0_lr0_agg_merge_mainred_0.vmdl
+   5 maps/bhop_soulscape/worldnodes/n0_lr0_agg_merge_smoothplastic_16-2b-22-ff-0_0.vmdl
+   5 maps/bhop_soulscape/worldnodes/n0_lr0_c2_s_cb_mesh.vmdl
+   5 materials/rbx/mainyellow.vmat
+   5 materials/rbx/smoothplastic_11-11-11-ff-0.vmat
+   4 maps/bhop_soulscape/entities/default_ents.vents
+   4 maps/bhop_soulscape/entities/map_end_877.vmdl
+   4 maps/bhop_soulscape/entities/map_start_879.vmdl
+   4 maps/bhop_soulscape/entities/unnamed_41.vmdl
+   4 maps/bhop_soulscape/entities/unnamed_44.vmdl
+   4 maps/bhop_soulscape/entities/unnamed_47.vmdl
+   4 maps/bhop_soulscape/entities/unnamed_51.vmdl
+   4 maps/bhop_soulscape/entities/unnamed_55.vmdl
+   4 maps/bhop_soulscape/entities/unnamed_61.vmdl
+   4 maps/bhop_soulscape/entities/unnamed_832.vmdl
+   4 maps/bhop_soulscape/lightmaps/debug_chart_color.vtex
+   4 maps/bhop_soulscape/lightmaps/direct_light_shadows.vtex
+   4 maps/bhop_soulscape/lightmaps/directional_irradiance.vtex
+   4 maps/bhop_soulscape/lightmaps/irradiance.vtex
+   4 materials/skybox/skybox.vmat
+   4 materials/rbx/bluecpsandother_vmat_g_tcolor_712e05fb.vtex
+   4 materials/rbx/brighterorange_vmat_g_tcolor_73f394db.vtex
+   4 materials/rbx/glowingblue_vmat_g_tcolor_712e05fb.vtex
+   4 materials/rbx/glowinggreen_vmat_g_tcolor_93b68558.vtex
+   4 materials/rbx/glowingornage_vmat_g_tcolor_73f394db.vtex
+   4 materials/rbx/glowingred_vmat_g_tcolor_e375b5fc.vtex
+   4 materials/rbx/glowingyellow_vmat_g_tcolor_714ac1dc.vtex
+   4 materials/rbx/greencpsandother_vmat_g_tcolor_93b68558.vtex
+   4 materials/rbx/greenmain_vmat_g_tcolor_93b68558.vtex
+   4 materials/rbx/mainblueblocks_vmat_g_tcolor_712e05fb.vtex
+   4 materials/rbx/maingrey_vmat_g_tcolor_23a5c72f.vtex
+   4 materials/rbx/mainorgane_vmat_g_tcolor_73f394db.vtex
+
+===== quit bhop_quit_full =====
+outer files=108 nested files=244
+shaders={'pbr.vfx': 15}
+entities=[('light_omni2', 298), ('trigger_teleport', 134), ('trigger_multiple', 29), ('info_teleport_destination', 20), ('info_player_counterterrorist', 20), ('info_player_terrorist', 20), ('trigger_push', 18), ('filter_activator_attribute_int', 4), ('func_brush', 2), ('worldspawn', 1), ('env_soundscape', 1), ('env_sky', 1), ('post_processing_volume', 1), ('env_combined_light_probe_volume', 1), ('logic_auto', 1), ('point_servercommand', 1), ('point_clientcommand', 1), ('team_select', 1), ('terrorist_team_intro', 1), ('counterterrorist_team_intro', 1), ('end_of_match', 1)]
+total_refs=522 missing=245
+MISSING    1 _bakeresourcecache/maps/bhop_quit_full_baked/env_cubemap_5189.vtex first_by=maps\bhop_quit_full.vmap_c
+MISSING    1 blue_neon.vmat first_by=materials\devneons\blue_neon.vmat_c
+MISSING    1 boost1_5124.vmdl first_by=maps\bhop_quit_full\entities\boost1_5124.vmdl_c
+MISSING    1 boost2_5135.vmdl first_by=maps\bhop_quit_full\entities\boost2_5135.vmdl_c
+MISSING    1 boost3_5185.vmdl first_by=maps\bhop_quit_full\entities\boost3_5185.vmdl_c
+MISSING    1 default_ents.vents first_by=maps\bhop_quit_full\entities\default_ents.vents_c
+MISSING    1 dev_measuregeneric04.vmat first_by=materials\dev\dev_measuregeneric04.vmat_c
+MISSING    1 dev_measuregeneric05.vmat first_by=materials\dev\dev_measuregeneric05.vmat_c
+MISSING    1 dev_measuregeneric12.vmat first_by=materials\dev\dev_measuregeneric12.vmat_c
+MISSING    1 dev_measuregeneric13_50opac.vmat first_by=materials\dev\dev_measuregeneric13_50opac.vmat_c
+MISSING    1 dev_measuregeneric19.vmat first_by=materials\dev\dev_measuregeneric19.vmat_c
+MISSING    1 dev_measuregeneric32.vmat first_by=materials\dev\dev_measuregeneric32.vmat_c
+MISSING    1 dev_measuregeneric41.vmat first_by=materials\dev\dev_measuregeneric41.vmat_c
+MISSING    1 fly1_5083.vmdl first_by=maps\bhop_quit_full\entities\fly1_5083.vmdl_c
+MISSING    1 fly2_5092.vmdl first_by=maps\bhop_quit_full\entities\fly2_5092.vmdl_c
+MISSING    1 fly3_5101.vmdl first_by=maps\bhop_quit_full\entities\fly3_5101.vmdl_c
+MISSING    1 jump_block10_4490.vmdl first_by=maps\bhop_quit_full\entities\jump_block10_4490.vmdl_c
+MISSING    1 jump_block11_4491.vmdl first_by=maps\bhop_quit_full\entities\jump_block11_4491.vmdl_c
+MISSING    1 jump_block12_4492.vmdl first_by=maps\bhop_quit_full\entities\jump_block12_4492.vmdl_c
+MISSING    1 jump_block13_4493.vmdl first_by=maps\bhop_quit_full\entities\jump_block13_4493.vmdl_c
+MISSING    1 jump_block14_4494.vmdl first_by=maps\bhop_quit_full\entities\jump_block14_4494.vmdl_c
+MISSING    1 jump_block15_4495.vmdl first_by=maps\bhop_quit_full\entities\jump_block15_4495.vmdl_c
+MISSING    1 jump_block1_1408.vmdl first_by=maps\bhop_quit_full\entities\jump_block1_1408.vmdl_c
+MISSING    1 jump_block2_1788.vmdl first_by=maps\bhop_quit_full\entities\jump_block2_1788.vmdl_c
+MISSING    1 jump_block3_2046.vmdl first_by=maps\bhop_quit_full\entities\jump_block3_2046.vmdl_c
+MISSING    1 jump_block4_4484.vmdl first_by=maps\bhop_quit_full\entities\jump_block4_4484.vmdl_c
+MISSING    1 jump_block5_4485.vmdl first_by=maps\bhop_quit_full\entities\jump_block5_4485.vmdl_c
+MISSING    1 jump_block6_4486.vmdl first_by=maps\bhop_quit_full\entities\jump_block6_4486.vmdl_c
+MISSING    1 jump_block7_4487.vmdl first_by=maps\bhop_quit_full\entities\jump_block7_4487.vmdl_c
+MISSING    1 jump_block8_4488.vmdl first_by=maps\bhop_quit_full\entities\jump_block8_4488.vmdl_c
+MISSING    1 jump_block9_4489.vmdl first_by=maps\bhop_quit_full\entities\jump_block9_4489.vmdl_c
+MISSING    1 map_end_5039.vmdl first_by=maps\bhop_quit_full\entities\map_end_5039.vmdl_c
+MISSING    1 map_start_2138.vmdl first_by=maps\bhop_quit_full\entities\map_start_2138.vmdl_c
+MISSING    1 mapbytest.vmat first_by=materials\mapbytest.vmat_c
+MISSING    9 materials/dev/dev_measuregeneric01.vmat first_by=maps\bhop_quit_full.vmap_c
+MISSING    2 materials/skybox/sky_de_vertigo.vmat first_by=maps\bhop_quit_full.vmap_c
+MISSING    1 materials/tools/toolsinvisible.vmat first_by=maps\bhop_quit_full.vmap_c
+MISSING    1 materials/tools/toolsinvisibleladder.vmat first_by=maps\bhop_quit_full.vmap_c
+MISSING    1 materials/tools/toolsplayerclip.vmat first_by=maps\bhop_quit_full.vmap_c
+MISSING    1 materials/tools/toolstrigger.vmat first_by=maps\bhop_quit_full.vmap_c
+MISSING    1 materials/tools_postprocess_volume.vmat first_by=maps\bhop_quit_full.vmap_c
+MISSING    1 n0.vwnod first_by=maps\bhop_quit_full\worldnodes\n0.vwnod_c
+MISSING    1 n0_lr0_agg_merge_dev_measuregeneric01_0.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_agg_merge_dev_measuregeneric01_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_dev_measuregeneric04_0.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_agg_merge_dev_measuregeneric04_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_dev_measuregeneric05_0.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_agg_merge_dev_measuregeneric05_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_dev_measuregeneric12_0.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_agg_merge_dev_measuregeneric12_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_dev_measuregeneric19_0.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_agg_merge_dev_measuregeneric19_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_dev_measuregeneric32_0.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_agg_merge_dev_measuregeneric32_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_dev_measuregeneric41_0.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_agg_merge_dev_measuregeneric41_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_orange_neon_0.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_agg_merge_orange_neon_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_rbg_cyan_0.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_agg_merge_rbg_cyan_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_texture_jaune_0.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_agg_merge_texture_jaune_0.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge0.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_c0_s_cb_nomerge0.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge1.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_c0_s_cb_nomerge1.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge10.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_c0_s_cb_nomerge10.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge11.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_c0_s_cb_nomerge11.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge12.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_c0_s_cb_nomerge12.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge13.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_c0_s_cb_nomerge13.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge14.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_c0_s_cb_nomerge14.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge15.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_c0_s_cb_nomerge15.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge16.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_c0_s_cb_nomerge16.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge17.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_c0_s_cb_nomerge17.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge18.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_c0_s_cb_nomerge18.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge19.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_c0_s_cb_nomerge19.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge2.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_c0_s_cb_nomerge2.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge3.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_c0_s_cb_nomerge3.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge4.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_c0_s_cb_nomerge4.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge5.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_c0_s_cb_nomerge5.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge6.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_c0_s_cb_nomerge6.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge7.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_c0_s_cb_nomerge7.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge8.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_c0_s_cb_nomerge8.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge9.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_c0_s_cb_nomerge9.vmdl_c
+MISSING    1 n0_lr0_c0_s_mesh_overlay0.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_c0_s_mesh_overlay0.vmdl_c
+MISSING    1 n0_lr0_c2_s_cb_mesh.vmdl first_by=maps\bhop_quit_full\worldnodes\n0_lr0_c2_s_cb_mesh.vmdl_c
+MISSING    1 orange_neon.vmat first_by=materials\devneons\orange_neon.vmat_c
+MISSING    1 port.vmat first_by=materials\port\port.vmat_c
+MISSING    1 rbg_cyan.vmat first_by=materials\ryan_dev\rbg_cyan.vmat_c
+MISSING    1 texture_jaune.vmat first_by=materials\texture\texture_jaune.vmat_c
+MISSING    1 texture_rouge7.vmat first_by=materials\texture\texture_rouge7.vmat_c
+MISSING    1 texture_rouge9.vmat first_by=materials\texture\texture_rouge9.vmat_c
+MISSING    1 unnamed_1001.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1001.vmdl_c
+MISSING    1 unnamed_1259.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1259.vmdl_c
+MISSING    1 unnamed_1261.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1261.vmdl_c
+MISSING    1 unnamed_1263.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1263.vmdl_c
+MISSING    1 unnamed_1265.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1265.vmdl_c
+MISSING    1 unnamed_1267.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1267.vmdl_c
+MISSING    1 unnamed_1269.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1269.vmdl_c
+MISSING    1 unnamed_1271.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1271.vmdl_c
+MISSING    1 unnamed_1273.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1273.vmdl_c
+MISSING    1 unnamed_1275.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1275.vmdl_c
+MISSING    1 unnamed_1277.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1277.vmdl_c
+MISSING    1 unnamed_1279.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1279.vmdl_c
+MISSING    1 unnamed_1281.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1281.vmdl_c
+MISSING    1 unnamed_135.vmdl first_by=maps\bhop_quit_full\entities\unnamed_135.vmdl_c
+MISSING    1 unnamed_137.vmdl first_by=maps\bhop_quit_full\entities\unnamed_137.vmdl_c
+MISSING    1 unnamed_1380.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1380.vmdl_c
+MISSING    1 unnamed_139.vmdl first_by=maps\bhop_quit_full\entities\unnamed_139.vmdl_c
+MISSING    1 unnamed_1391.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1391.vmdl_c
+MISSING    1 unnamed_141.vmdl first_by=maps\bhop_quit_full\entities\unnamed_141.vmdl_c
+MISSING    1 unnamed_1412.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1412.vmdl_c
+MISSING    1 unnamed_1463.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1463.vmdl_c
+MISSING    1 unnamed_1465.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1465.vmdl_c
+MISSING    1 unnamed_1467.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1467.vmdl_c
+MISSING    1 unnamed_1469.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1469.vmdl_c
+MISSING    1 unnamed_1471.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1471.vmdl_c
+MISSING    1 unnamed_1521.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1521.vmdl_c
+MISSING    1 unnamed_1523.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1523.vmdl_c
+MISSING    1 unnamed_1525.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1525.vmdl_c
+MISSING    1 unnamed_1527.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1527.vmdl_c
+MISSING    1 unnamed_1529.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1529.vmdl_c
+MISSING    1 unnamed_1531.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1531.vmdl_c
+MISSING    1 unnamed_1533.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1533.vmdl_c
+MISSING    1 unnamed_1535.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1535.vmdl_c
+MISSING    1 unnamed_1537.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1537.vmdl_c
+MISSING    1 unnamed_1539.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1539.vmdl_c
+MISSING    1 unnamed_1541.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1541.vmdl_c
+MISSING    1 unnamed_1543.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1543.vmdl_c
+MISSING    1 unnamed_1545.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1545.vmdl_c
+MISSING    1 unnamed_1547.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1547.vmdl_c
+MISSING    1 unnamed_1549.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1549.vmdl_c
+MISSING    1 unnamed_1551.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1551.vmdl_c
+MISSING    1 unnamed_1553.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1553.vmdl_c
+MISSING    1 unnamed_1555.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1555.vmdl_c
+MISSING    1 unnamed_1557.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1557.vmdl_c
+MISSING    1 unnamed_1559.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1559.vmdl_c
+MISSING    1 unnamed_1561.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1561.vmdl_c
+MISSING    1 unnamed_1563.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1563.vmdl_c
+MISSING    1 unnamed_1565.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1565.vmdl_c
+MISSING    1 unnamed_1567.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1567.vmdl_c
+MISSING    1 unnamed_1569.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1569.vmdl_c
+MISSING    1 unnamed_1571.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1571.vmdl_c
+MISSING    1 unnamed_1573.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1573.vmdl_c
+MISSING    1 unnamed_1575.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1575.vmdl_c
+MISSING    1 unnamed_1577.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1577.vmdl_c
+MISSING    1 unnamed_1608.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1608.vmdl_c
+MISSING    1 unnamed_1619.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1619.vmdl_c
+MISSING    1 unnamed_1632.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1632.vmdl_c
+MISSING    1 unnamed_1634.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1634.vmdl_c
+MISSING    1 unnamed_1636.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1636.vmdl_c
+MISSING    1 unnamed_1638.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1638.vmdl_c
+MISSING    1 unnamed_1640.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1640.vmdl_c
+MISSING    1 unnamed_1642.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1642.vmdl_c
+MISSING    1 unnamed_1644.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1644.vmdl_c
+MISSING    1 unnamed_1646.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1646.vmdl_c
+MISSING    1 unnamed_1648.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1648.vmdl_c
+MISSING    1 unnamed_1708.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1708.vmdl_c
+MISSING    1 unnamed_1710.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1710.vmdl_c
+MISSING    1 unnamed_1712.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1712.vmdl_c
+MISSING    1 unnamed_1716.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1716.vmdl_c
+MISSING    1 unnamed_1719.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1719.vmdl_c
+MISSING    1 unnamed_1721.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1721.vmdl_c
+MISSING    1 unnamed_1723.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1723.vmdl_c
+MISSING    1 unnamed_1725.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1725.vmdl_c
+MISSING    1 unnamed_1727.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1727.vmdl_c
+MISSING    1 unnamed_1729.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1729.vmdl_c
+MISSING    1 unnamed_1757.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1757.vmdl_c
+MISSING    1 unnamed_1790.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1790.vmdl_c
+MISSING    1 unnamed_1792.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1792.vmdl_c
+MISSING    1 unnamed_1794.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1794.vmdl_c
+MISSING    1 unnamed_1796.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1796.vmdl_c
+MISSING    1 unnamed_1811.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1811.vmdl_c
+MISSING    1 unnamed_1813.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1813.vmdl_c
+MISSING    1 unnamed_1815.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1815.vmdl_c
+MISSING    1 unnamed_1817.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1817.vmdl_c
+MISSING    1 unnamed_1823.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1823.vmdl_c
+MISSING    1 unnamed_1825.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1825.vmdl_c
+MISSING    1 unnamed_1895.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1895.vmdl_c
+MISSING    1 unnamed_1897.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1897.vmdl_c
+MISSING    1 unnamed_1899.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1899.vmdl_c
+MISSING    1 unnamed_1901.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1901.vmdl_c
+MISSING    1 unnamed_1903.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1903.vmdl_c
+MISSING    1 unnamed_1905.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1905.vmdl_c
+MISSING    1 unnamed_1907.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1907.vmdl_c
+MISSING    1 unnamed_1909.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1909.vmdl_c
+MISSING    1 unnamed_1911.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1911.vmdl_c
+MISSING    1 unnamed_1913.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1913.vmdl_c
+MISSING    1 unnamed_1915.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1915.vmdl_c
+MISSING    1 unnamed_1917.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1917.vmdl_c
+MISSING    1 unnamed_1919.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1919.vmdl_c
+MISSING    1 unnamed_1921.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1921.vmdl_c
+MISSING    1 unnamed_1923.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1923.vmdl_c
+MISSING    1 unnamed_1925.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1925.vmdl_c
+MISSING    1 unnamed_1927.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1927.vmdl_c
+MISSING    1 unnamed_1929.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1929.vmdl_c
+MISSING    1 unnamed_1931.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1931.vmdl_c
+MISSING    1 unnamed_1933.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1933.vmdl_c
+MISSING    1 unnamed_1935.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1935.vmdl_c
+MISSING    1 unnamed_1937.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1937.vmdl_c
+MISSING    1 unnamed_1939.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1939.vmdl_c
+MISSING    1 unnamed_1941.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1941.vmdl_c
+MISSING    1 unnamed_1943.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1943.vmdl_c
+MISSING    1 unnamed_1945.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1945.vmdl_c
+MISSING    1 unnamed_1947.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1947.vmdl_c
+MISSING    1 unnamed_1949.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1949.vmdl_c
+MISSING    1 unnamed_1951.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1951.vmdl_c
+MISSING    1 unnamed_1953.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1953.vmdl_c
+MISSING    1 unnamed_1955.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1955.vmdl_c
+MISSING    1 unnamed_1957.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1957.vmdl_c
+MISSING    1 unnamed_1959.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1959.vmdl_c
+MISSING    1 unnamed_1961.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1961.vmdl_c
+MISSING    1 unnamed_1963.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1963.vmdl_c
+MISSING    1 unnamed_1965.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1965.vmdl_c
+MISSING    1 unnamed_1967.vmdl first_by=maps\bhop_quit_full\entities\unnamed_1967.vmdl_c
+MISSING    1 unnamed_2116.vmdl first_by=maps\bhop_quit_full\entities\unnamed_2116.vmdl_c
+MISSING    1 unnamed_2118.vmdl first_by=maps\bhop_quit_full\entities\unnamed_2118.vmdl_c
+MISSING    1 unnamed_2120.vmdl first_by=maps\bhop_quit_full\entities\unnamed_2120.vmdl_c
+MISSING    1 unnamed_2128.vmdl first_by=maps\bhop_quit_full\entities\unnamed_2128.vmdl_c
+MISSING    1 unnamed_4482.vmdl first_by=maps\bhop_quit_full\entities\unnamed_4482.vmdl_c
+MISSING    1 unnamed_4496.vmdl first_by=maps\bhop_quit_full\entities\unnamed_4496.vmdl_c
+MISSING    1 unnamed_4498.vmdl first_by=maps\bhop_quit_full\entities\unnamed_4498.vmdl_c
+MISSING    1 unnamed_4500.vmdl first_by=maps\bhop_quit_full\entities\unnamed_4500.vmdl_c
+MISSING    1 unnamed_4502.vmdl first_by=maps\bhop_quit_full\entities\unnamed_4502.vmdl_c
+MISSING    1 unnamed_4547.vmdl first_by=maps\bhop_quit_full\entities\unnamed_4547.vmdl_c
+MISSING    1 unnamed_4582.vmdl first_by=maps\bhop_quit_full\entities\unnamed_4582.vmdl_c
+MISSING    1 unnamed_4618.vmdl first_by=maps\bhop_quit_full\entities\unnamed_4618.vmdl_c
+MISSING    1 unnamed_4653.vmdl first_by=maps\bhop_quit_full\entities\unnamed_4653.vmdl_c
+MISSING    1 unnamed_4695.vmdl first_by=maps\bhop_quit_full\entities\unnamed_4695.vmdl_c
+MISSING    1 unnamed_4745.vmdl first_by=maps\bhop_quit_full\entities\unnamed_4745.vmdl_c
+MISSING    1 unnamed_4782.vmdl first_by=maps\bhop_quit_full\entities\unnamed_4782.vmdl_c
+MISSING    1 unnamed_4828.vmdl first_by=maps\bhop_quit_full\entities\unnamed_4828.vmdl_c
+MISSING    1 unnamed_4845.vmdl first_by=maps\bhop_quit_full\entities\unnamed_4845.vmdl_c
+MISSING    1 unnamed_4864.vmdl first_by=maps\bhop_quit_full\entities\unnamed_4864.vmdl_c
+MISSING    1 unnamed_4868.vmdl first_by=maps\bhop_quit_full\entities\unnamed_4868.vmdl_c
+MISSING    1 unnamed_5081.vmdl first_by=maps\bhop_quit_full\entities\unnamed_5081.vmdl_c
+MISSING    1 unnamed_5085.vmdl first_by=maps\bhop_quit_full\entities\unnamed_5085.vmdl_c
+MISSING    1 unnamed_5090.vmdl first_by=maps\bhop_quit_full\entities\unnamed_5090.vmdl_c
+MISSING    1 unnamed_5094.vmdl first_by=maps\bhop_quit_full\entities\unnamed_5094.vmdl_c
+MISSING    1 unnamed_5099.vmdl first_by=maps\bhop_quit_full\entities\unnamed_5099.vmdl_c
+MISSING    1 unnamed_5103.vmdl first_by=maps\bhop_quit_full\entities\unnamed_5103.vmdl_c
+MISSING    1 unnamed_5122.vmdl first_by=maps\bhop_quit_full\entities\unnamed_5122.vmdl_c
+MISSING    1 unnamed_5135.vmdl first_by=maps\bhop_quit_full\entities\unnamed_5135.vmdl_c
+MISSING    1 unnamed_5148.vmdl first_by=maps\bhop_quit_full\entities\unnamed_5148.vmdl_c
+MISSING    1 unnamed_5178.vmdl first_by=maps\bhop_quit_full\entities\unnamed_5178.vmdl_c
+MISSING    1 unnamed_5185.vmdl first_by=maps\bhop_quit_full\entities\unnamed_5185.vmdl_c
+MISSING    1 unnamed_5204.vmdl first_by=maps\bhop_quit_full\entities\unnamed_5204.vmdl_c
+MISSING    1 unnamed_5205.vmdl first_by=maps\bhop_quit_full\entities\unnamed_5205.vmdl_c
+MISSING    1 unnamed_5207.vmdl first_by=maps\bhop_quit_full\entities\unnamed_5207.vmdl_c
+MISSING    1 unnamed_5209.vmdl first_by=maps\bhop_quit_full\entities\unnamed_5209.vmdl_c
+MISSING    1 unnamed_5211.vmdl first_by=maps\bhop_quit_full\entities\unnamed_5211.vmdl_c
+MISSING    1 unnamed_5213.vmdl first_by=maps\bhop_quit_full\entities\unnamed_5213.vmdl_c
+MISSING    1 unnamed_995.vmdl first_by=maps\bhop_quit_full\entities\unnamed_995.vmdl_c
+MISSING    1 unnamed_997.vmdl first_by=maps\bhop_quit_full\entities\unnamed_997.vmdl_c
+MISSING    1 unnamed_999.vmdl first_by=maps\bhop_quit_full\entities\unnamed_999.vmdl_c
+MISSING    1 world.vwrld first_by=maps\bhop_quit_full\world.vwrld_c
+MISSING    1 world_physics.vmdl first_by=maps\bhop_quit_full\world_physics.vmdl_c
+
+TOP REFS
+ 218 materials/dev/dev_measuregeneric04.vmat
+  86 materials/dev/dev_measuregeneric05.vmat
+  71 materials/default/default_mask_tga_344101f8.vtex
+  50 materials/dev/dev_measuregeneric19.vmat
+  45 materials/default/default_ao_tga_559f1ac6.vtex
+  43 materials/dev/dev_measuregeneric13_50opac.vmat
+  16 materials/ryan_dev/rbg_cyan.vmat
+  14 materials/dev/dev_measuregeneric41.vmat
+   9 materials/dev/dev_measuregeneric01.vmat
+   6 materials/dev/dev_measuregeneric12.vmat
+   6 materials/dev/dev_measuregeneric32.vmat
+   6 materials/devneons/orange_neon.vmat
+   5 materials/devneons/blue_neon.vmat
+   5 materials/mapbytest.vmat
+   5 materials/port/port.vmat
+   5 materials/texture/texture_jaune.vmat
+   5 materials/texture/texture_rouge7.vmat
+   5 materials/texture/texture_rouge9.vmat
+   4 maps/bhop_quit_full/entities/boost1_5124.vmdl
+   4 maps/bhop_quit_full/entities/boost3_5185.vmdl
+   4 maps/bhop_quit_full/entities/default_ents.vents
+   4 maps/bhop_quit_full/entities/fly1_5083.vmdl
+   4 maps/bhop_quit_full/entities/fly2_5092.vmdl
+   4 maps/bhop_quit_full/entities/fly3_5101.vmdl
+   4 maps/bhop_quit_full/entities/jump_block10_4490.vmdl
+   4 maps/bhop_quit_full/entities/jump_block11_4491.vmdl
+   4 maps/bhop_quit_full/entities/jump_block12_4492.vmdl
+   4 maps/bhop_quit_full/entities/jump_block13_4493.vmdl
+   4 maps/bhop_quit_full/entities/jump_block14_4494.vmdl
+   4 maps/bhop_quit_full/entities/jump_block15_4495.vmdl
+   4 maps/bhop_quit_full/entities/jump_block1_1408.vmdl
+   4 maps/bhop_quit_full/entities/jump_block2_1788.vmdl
+   4 maps/bhop_quit_full/entities/jump_block3_2046.vmdl
+   4 maps/bhop_quit_full/entities/jump_block4_4484.vmdl
+   4 maps/bhop_quit_full/entities/jump_block5_4485.vmdl
+   4 maps/bhop_quit_full/entities/jump_block6_4486.vmdl
+   4 maps/bhop_quit_full/entities/jump_block7_4487.vmdl
+   4 maps/bhop_quit_full/entities/jump_block8_4488.vmdl
+   4 maps/bhop_quit_full/entities/jump_block9_4489.vmdl
+   4 maps/bhop_quit_full/entities/map_end_5039.vmdl
+   4 maps/bhop_quit_full/entities/map_start_2138.vmdl
+   4 maps/bhop_quit_full/entities/unnamed_1001.vmdl
+   4 maps/bhop_quit_full/entities/unnamed_1259.vmdl
+   4 maps/bhop_quit_full/entities/unnamed_1261.vmdl
+   4 maps/bhop_quit_full/entities/unnamed_1263.vmdl
+   4 maps/bhop_quit_full/entities/unnamed_1265.vmdl
+   4 maps/bhop_quit_full/entities/unnamed_1267.vmdl
+   4 maps/bhop_quit_full/entities/unnamed_1269.vmdl
+   4 maps/bhop_quit_full/entities/unnamed_1271.vmdl
+   4 maps/bhop_quit_full/entities/unnamed_1273.vmdl
+   4 maps/bhop_quit_full/entities/unnamed_1275.vmdl
+   4 maps/bhop_quit_full/entities/unnamed_1277.vmdl
+   4 maps/bhop_quit_full/entities/unnamed_1279.vmdl
+   4 maps/bhop_quit_full/entities/unnamed_1281.vmdl
+   4 maps/bhop_quit_full/entities/unnamed_135.vmdl
+   4 maps/bhop_quit_full/entities/unnamed_137.vmdl
+   4 maps/bhop_quit_full/entities/unnamed_1380.vmdl
+   4 maps/bhop_quit_full/entities/unnamed_139.vmdl
+   4 maps/bhop_quit_full/entities/unnamed_1391.vmdl
+   4 maps/bhop_quit_full/entities/unnamed_141.vmdl
+
+===== rose bhop_rose =====
+outer files=71 nested files=84
+shaders={'pbr.vfx': 10}
+entities=[('func_brush', 31), ('info_player_terrorist', 16), ('info_player_counterterrorist', 16), ('trigger_teleport', 11), ('trigger_multiple', 8), ('info_teleport_destination', 2), ('env_combined_light_probe_volume', 2), ('worldspawn', 1), ('info_player_start', 1), ('light_environment', 1), ('env_sky', 1), ('post_processing_volume', 1)]
+total_refs=176 missing=76
+MISSING    1 _bakeresourcecache/maps/bhop_rose_baked/env_cubemap_1651.vtex first_by=maps\bhop_rose.vmap_c
+MISSING    1 _bakeresourcecache/maps/bhop_rose_baked/env_cubemap_1652.vtex first_by=maps\bhop_rose.vmap_c
+MISSING    1 bytrazox.vmat first_by=materials\bytrazox.vmat_c
+MISSING    1 default_ents.vents first_by=maps\bhop_rose\entities\default_ents.vents_c
+MISSING    1 light_magenta1.vmat first_by=materials\ryan_dev\light_magenta1.vmat_c
+MISSING    1 light_magenta2.vmat first_by=materials\ryan_dev\light_magenta2.vmat_c
+MISSING    1 map_end_1648.vmdl first_by=maps\bhop_rose\entities\map_end_1648.vmdl_c
+MISSING    1 map_start_1646.vmdl first_by=maps\bhop_rose\entities\map_start_1646.vmdl_c
+MISSING    1 materials/tools/toolstrigger.vmat first_by=maps\bhop_rose.vmap_c
+MISSING    1 materials/tools_postprocess_volume.vmat first_by=maps\bhop_rose.vmap_c
+MISSING    1 moondome.vmat first_by=materials\skybox\moondome.vmat_c
+MISSING    1 n0.vwnod first_by=maps\bhop_rose\worldnodes\n0.vwnod_c
+MISSING    1 n0_lr0_agg_merge_light_magenta2_0.vmdl first_by=maps\bhop_rose\worldnodes\n0_lr0_agg_merge_light_magenta2_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_pastel_magenta2_0.vmdl first_by=maps\bhop_rose\worldnodes\n0_lr0_agg_merge_pastel_magenta2_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_pure_blue1_0.vmdl first_by=maps\bhop_rose\worldnodes\n0_lr0_agg_merge_pure_blue1_0.vmdl_c
+MISSING    1 n0_lr0_agg_merge_white_0.vmdl first_by=maps\bhop_rose\worldnodes\n0_lr0_agg_merge_white_0.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_mesh_base_nsh.vmdl first_by=maps\bhop_rose\worldnodes\n0_lr0_c0_s_cb_mesh_base_nsh.vmdl_c
+MISSING    1 n0_lr0_c0_s_cb_nomerge0_bytrazox.vmdl first_by=maps\bhop_rose\worldnodes\n0_lr0_c0_s_cb_nomerge0_bytrazox.vmdl_c
+MISSING    1 n0_lr0_c2_s_cb_mesh.vmdl first_by=maps\bhop_rose\worldnodes\n0_lr0_c2_s_cb_mesh.vmdl_c
+MISSING    1 pastel_magenta2.vmat first_by=materials\ryan_dev\pastel_magenta2.vmat_c
+MISSING    1 pure_blue1.vmat first_by=materials\ryan_dev\pure_blue1.vmat_c
+MISSING    1 pure_green2.vmat first_by=materials\ryan_dev\pure_green2.vmat_c
+MISSING    1 pure_red.vmat first_by=materials\ryan_dev\pure_red.vmat_c
+MISSING    1 ssss.vmat first_by=materials\skybox\ssss.vmat_c
+MISSING    1 unnamed_110.vmdl first_by=maps\bhop_rose\entities\unnamed_110.vmdl_c
+MISSING    1 unnamed_121.vmdl first_by=maps\bhop_rose\entities\unnamed_121.vmdl_c
+MISSING    1 unnamed_132.vmdl first_by=maps\bhop_rose\entities\unnamed_132.vmdl_c
+MISSING    1 unnamed_143.vmdl first_by=maps\bhop_rose\entities\unnamed_143.vmdl_c
+MISSING    1 unnamed_154.vmdl first_by=maps\bhop_rose\entities\unnamed_154.vmdl_c
+MISSING    1 unnamed_1644.vmdl first_by=maps\bhop_rose\entities\unnamed_1644.vmdl_c
+MISSING    1 unnamed_165.vmdl first_by=maps\bhop_rose\entities\unnamed_165.vmdl_c
+MISSING    1 unnamed_176.vmdl first_by=maps\bhop_rose\entities\unnamed_176.vmdl_c
+MISSING    1 unnamed_187.vmdl first_by=maps\bhop_rose\entities\unnamed_187.vmdl_c
+MISSING    1 unnamed_198.vmdl first_by=maps\bhop_rose\entities\unnamed_198.vmdl_c
+MISSING    1 unnamed_209.vmdl first_by=maps\bhop_rose\entities\unnamed_209.vmdl_c
+MISSING    1 unnamed_220.vmdl first_by=maps\bhop_rose\entities\unnamed_220.vmdl_c
+MISSING    1 unnamed_231.vmdl first_by=maps\bhop_rose\entities\unnamed_231.vmdl_c
+MISSING    1 unnamed_24.vmdl first_by=maps\bhop_rose\entities\unnamed_24.vmdl_c
+MISSING    1 unnamed_242.vmdl first_by=maps\bhop_rose\entities\unnamed_242.vmdl_c
+MISSING    1 unnamed_253.vmdl first_by=maps\bhop_rose\entities\unnamed_253.vmdl_c
+MISSING    1 unnamed_260.vmdl first_by=maps\bhop_rose\entities\unnamed_260.vmdl_c
+MISSING    1 unnamed_274.vmdl first_by=maps\bhop_rose\entities\unnamed_274.vmdl_c
+MISSING    1 unnamed_276.vmdl first_by=maps\bhop_rose\entities\unnamed_276.vmdl_c
+MISSING    1 unnamed_278.vmdl first_by=maps\bhop_rose\entities\unnamed_278.vmdl_c
+MISSING    1 unnamed_289.vmdl first_by=maps\bhop_rose\entities\unnamed_289.vmdl_c
+MISSING    1 unnamed_300.vmdl first_by=maps\bhop_rose\entities\unnamed_300.vmdl_c
+MISSING    1 unnamed_311.vmdl first_by=maps\bhop_rose\entities\unnamed_311.vmdl_c
+MISSING    1 unnamed_322.vmdl first_by=maps\bhop_rose\entities\unnamed_322.vmdl_c
+MISSING    1 unnamed_33.vmdl first_by=maps\bhop_rose\entities\unnamed_33.vmdl_c
+MISSING    1 unnamed_333.vmdl first_by=maps\bhop_rose\entities\unnamed_333.vmdl_c
+MISSING    1 unnamed_347.vmdl first_by=maps\bhop_rose\entities\unnamed_347.vmdl_c
+MISSING    1 unnamed_356.vmdl first_by=maps\bhop_rose\entities\unnamed_356.vmdl_c
+MISSING    1 unnamed_365.vmdl first_by=maps\bhop_rose\entities\unnamed_365.vmdl_c
+MISSING    1 unnamed_367.vmdl first_by=maps\bhop_rose\entities\unnamed_367.vmdl_c
+MISSING    1 unnamed_369.vmdl first_by=maps\bhop_rose\entities\unnamed_369.vmdl_c
+MISSING    1 unnamed_371.vmdl first_by=maps\bhop_rose\entities\unnamed_371.vmdl_c
+MISSING    1 unnamed_373.vmdl first_by=maps\bhop_rose\entities\unnamed_373.vmdl_c
+MISSING    1 unnamed_375.vmdl first_by=maps\bhop_rose\entities\unnamed_375.vmdl_c
+MISSING    1 unnamed_377.vmdl first_by=maps\bhop_rose\entities\unnamed_377.vmdl_c
+MISSING    1 unnamed_379.vmdl first_by=maps\bhop_rose\entities\unnamed_379.vmdl_c
+MISSING    1 unnamed_382.vmdl first_by=maps\bhop_rose\entities\unnamed_382.vmdl_c
+MISSING    1 unnamed_384.vmdl first_by=maps\bhop_rose\entities\unnamed_384.vmdl_c
+MISSING    1 unnamed_386.vmdl first_by=maps\bhop_rose\entities\unnamed_386.vmdl_c
+MISSING    1 unnamed_388.vmdl first_by=maps\bhop_rose\entities\unnamed_388.vmdl_c
+MISSING    1 unnamed_390.vmdl first_by=maps\bhop_rose\entities\unnamed_390.vmdl_c
+MISSING    1 unnamed_392.vmdl first_by=maps\bhop_rose\entities\unnamed_392.vmdl_c
+MISSING    1 unnamed_394.vmdl first_by=maps\bhop_rose\entities\unnamed_394.vmdl_c
+MISSING    1 unnamed_44.vmdl first_by=maps\bhop_rose\entities\unnamed_44.vmdl_c
+MISSING    1 unnamed_55.vmdl first_by=maps\bhop_rose\entities\unnamed_55.vmdl_c
+MISSING    1 unnamed_66.vmdl first_by=maps\bhop_rose\entities\unnamed_66.vmdl_c
+MISSING    1 unnamed_77.vmdl first_by=maps\bhop_rose\entities\unnamed_77.vmdl_c
+MISSING    1 unnamed_88.vmdl first_by=maps\bhop_rose\entities\unnamed_88.vmdl_c
+MISSING    1 unnamed_99.vmdl first_by=maps\bhop_rose\entities\unnamed_99.vmdl_c
+MISSING    1 white.vmat first_by=materials\ryan_dev\white.vmat_c
+MISSING    1 world.vwrld first_by=maps\bhop_rose\world.vwrld_c
+MISSING    1 world_physics.vmdl first_by=maps\bhop_rose\world_physics.vmdl_c
+
+TOP REFS
+ 338 materials/ryan_dev/pastel_magenta2.vmat
+ 131 materials/ryan_dev/white.vmat
+  50 materials/default/default_mask_tga_344101f8.vtex
+  31 materials/ryan_dev/light_magenta2.vmat
+  30 materials/default/default_ao_tga_559f1ac6.vtex
+  21 materials/ryan_dev/pure_green2.vmat
+  12 materials/ryan_dev/pure_red.vmat
+   8 materials/ryan_dev/pure_blue1.vmat
+   5 materials/bytrazox.vmat
+   5 materials/ryan_dev/light_magenta1.vmat
+   5 materials/skybox/moondome.vmat
+   4 maps/bhop_rose/entities/default_ents.vents
+   4 maps/bhop_rose/entities/map_end_1648.vmdl
+   4 maps/bhop_rose/entities/map_start_1646.vmdl
+   4 maps/bhop_rose/entities/unnamed_110.vmdl
+   4 maps/bhop_rose/entities/unnamed_121.vmdl
+   4 maps/bhop_rose/entities/unnamed_132.vmdl
+   4 maps/bhop_rose/entities/unnamed_143.vmdl
+   4 maps/bhop_rose/entities/unnamed_154.vmdl
+   4 maps/bhop_rose/entities/unnamed_1644.vmdl
+   4 maps/bhop_rose/entities/unnamed_165.vmdl
+   4 maps/bhop_rose/entities/unnamed_176.vmdl
+   4 maps/bhop_rose/entities/unnamed_187.vmdl
+   4 maps/bhop_rose/entities/unnamed_198.vmdl
+   4 maps/bhop_rose/entities/unnamed_209.vmdl
+   4 maps/bhop_rose/entities/unnamed_220.vmdl
+   4 maps/bhop_rose/entities/unnamed_231.vmdl
+   4 maps/bhop_rose/entities/unnamed_24.vmdl
+   4 maps/bhop_rose/entities/unnamed_242.vmdl
+   4 maps/bhop_rose/entities/unnamed_253.vmdl
+   4 maps/bhop_rose/entities/unnamed_260.vmdl
+   4 maps/bhop_rose/entities/unnamed_274.vmdl
+   4 maps/bhop_rose/entities/unnamed_276.vmdl
+   4 maps/bhop_rose/entities/unnamed_278.vmdl
+   4 maps/bhop_rose/entities/unnamed_289.vmdl
+   4 maps/bhop_rose/entities/unnamed_300.vmdl
+   4 maps/bhop_rose/entities/unnamed_311.vmdl
+   4 maps/bhop_rose/entities/unnamed_322.vmdl
+   4 maps/bhop_rose/entities/unnamed_33.vmdl
+   4 maps/bhop_rose/entities/unnamed_333.vmdl
+   4 maps/bhop_rose/entities/unnamed_347.vmdl
+   4 maps/bhop_rose/entities/unnamed_356.vmdl
+   4 maps/bhop_rose/entities/unnamed_365.vmdl
+   4 maps/bhop_rose/entities/unnamed_367.vmdl
+   4 maps/bhop_rose/entities/unnamed_369.vmdl
+   4 maps/bhop_rose/entities/unnamed_371.vmdl
+   4 maps/bhop_rose/entities/unnamed_373.vmdl
+   4 maps/bhop_rose/entities/unnamed_375.vmdl
+   4 maps/bhop_rose/entities/unnamed_377.vmdl
+   4 maps/bhop_rose/entities/unnamed_379.vmdl
+   4 maps/bhop_rose/entities/unnamed_382.vmdl
+   4 maps/bhop_rose/entities/unnamed_384.vmdl
+   4 maps/bhop_rose/entities/unnamed_386.vmdl
+   4 maps/bhop_rose/entities/unnamed_388.vmdl
+   4 maps/bhop_rose/entities/unnamed_390.vmdl
+   4 maps/bhop_rose/entities/unnamed_392.vmdl
+   4 maps/bhop_rose/entities/unnamed_394.vmdl
+   4 maps/bhop_rose/entities/unnamed_44.vmdl
+   4 maps/bhop_rose/entities/unnamed_55.vmdl
+   4 maps/bhop_rose/entities/unnamed_66.vmdl
