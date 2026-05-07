@@ -1,0 +1,8 @@
+{
+  "repoRoot": "C:/Code/deadlock-map-porting",
+  "csdkRoot": "C:/Users/User/Documents/Reduced_CSDK_12",
+  "vrfCli": "C:/Code/tools/vrf/Source2Viewer-CLI.exe",
+  "deadlockRoot": "C:/Program Files (x86)/Steam/steamapps/common/Deadlock",
+  "installPak": "C:/Program Files (x86)/Steam/steamapps/common/Deadlock/game/citadel/addons/pak72_dir.vpk",
+  "defaultMemoryGb": 28
+}

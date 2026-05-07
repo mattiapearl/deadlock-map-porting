@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+bin/
+obj/
+
+# Generated map-porting outputs
+work/
+exports/
+logs/
+live_backups/
+tmp/
+tmp*/
+staging/
+extracted/
+input/
+new_workshop_maps/
+audit_live_three_maps_current/
+mapping_audit/
+final_analysis/extracted_final_map/
+final_analysis/extracted_final_pak33/
+
+# Heavy Source 2 / VPK artifacts
+*.vpk
+*.vpk.*
+*.vmap
+*.vmap_c
+*.vmdl_c
+*.vtex_c
+*.vmat_c
+*.vents_c
+*.vwrld_c
+*.vrman_c
+*.vsnd_c
+*.vpost_c
+*.exr
+*.tga
+
+# Screenshots / temporary images
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+
+# Logs and local temp files
+*.log
+*.out
+*.tmp
+
+# Local tool/editor state
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Keep source/examples/docs/tests even when names overlap
+!docs/**/*.md
+!reports/**/*.md
+!config/**/*.json
+!manifests/**/*.json
+!tools/**/*.py
+!tests/**/*.py
+!README.md
+!PORTING_FINDINGS.md

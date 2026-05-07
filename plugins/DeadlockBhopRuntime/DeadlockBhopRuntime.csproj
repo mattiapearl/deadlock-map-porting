@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>DeadlockBhopRuntime</RootNamespace>
+    <DeadlockBin Condition="'$(DeadlockBin)' == ''">$(DEADLOCK_BIN)</DeadlockBin>
+    <DeadworksApiPath Condition="'$(DeadworksApiPath)' == '' and '$(DeadlockBin)' != ''">$(DeadlockBin)\managed\DeadworksManaged.Api.dll</DeadworksApiPath>
+    <DeadworksApiPath Condition="'$(DeadworksApiPath)' == ''">C:\Code\_research_deadworks\managed\DeadworksManaged.Api\bin\Release\net10.0\DeadworksManaged.Api.dll</DeadworksApiPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="DeadworksManaged.Api">
+      <HintPath>$(DeadworksApiPath)</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

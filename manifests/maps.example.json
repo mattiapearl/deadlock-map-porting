@@ -1,0 +1,16 @@
+{
+  "maps": [
+    {
+      "workshopRoot": "C:/Code/deadlock-map-porting/new_workshop_maps/3605179998",
+      "map": "bhop_soulscape",
+      "addon": "bhop_soulscape_full_recompile",
+      "memoryGb": 28
+    },
+    {
+      "workshopRoot": "C:/Code/deadlock-map-porting/new_workshop_maps/3660240969",
+      "map": "bhop_rose",
+      "addon": "bhop_rose_full_recompile",
+      "memoryGb": 30
+    }
+  ]
+}

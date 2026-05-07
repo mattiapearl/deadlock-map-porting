@@ -1,0 +1,12 @@
+[project]
+name = "deadlock-cs2-bhop-porting"
+version = "0.1.0"
+description = "Headless CS2/Source 2 bhop map full-source recompile pipeline for Deadlock"
+requires-python = ">=3.11"
+dependencies = [
+  "vpk>=1.4.0"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
