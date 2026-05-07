@@ -1,4 +1,4 @@
-# Full-source CS2 bhop -> Deadlock automation decisions
+# Full-source CS2 map -> Deadlock automation decisions
 
 Date: 2026-05-07
 

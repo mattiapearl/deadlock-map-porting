@@ -1,4 +1,4 @@
-# Shipping the Deadlock CS2 bhop porting pipeline
+# Shipping the Deadlock map porting pipeline
 
 This document is the operator checklist for moving the pipeline to another machine.
 

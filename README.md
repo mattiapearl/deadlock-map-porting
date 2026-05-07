@@ -1,6 +1,6 @@
-# Deadlock CS2 bhop map porting
+# Deadlock map porting
 
-Headless tooling for porting CS2/Source 2 bhop workshop maps into Deadlock by decompiling to source assets, rewriting incompatible materials, patching Deadlock runtime entities, recompiling with Deadlock CSDK, packing, and optionally installing into a live Deadlock addon VPK.
+Headless tooling for porting CS2/Source 2 workshop maps into Deadlock by decompiling to source assets, rewriting incompatible materials, patching Deadlock runtime entities, recompiling with Deadlock CSDK, packing, and optionally installing into a live Deadlock addon VPK.
 
 Golden reference: `bhop_soulscape` was successfully rebuilt and loaded in Deadlock with valid Deadlock lightmap metadata.
 
