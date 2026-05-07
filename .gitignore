@@ -23,6 +23,9 @@ audit_live_three_maps_current/
 mapping_audit/
 final_analysis/extracted_final_map/
 final_analysis/extracted_final_pak33/
+research/
+plugins/**/bin/
+plugins/**/obj/
 
 # Heavy Source 2 / VPK artifacts
 *.vpk
@@ -51,6 +54,8 @@ final_analysis/extracted_final_pak33/
 *.log
 *.out
 *.tmp
+*.txt
+*.ps1
 
 # Local tool/editor state
 .vscode/
@@ -61,6 +66,8 @@ Thumbs.db
 # Keep source/examples/docs/tests even when names overlap
 !docs/**/*.md
 !reports/**/*.md
+!reports/**/*.txt
+!docs/**/*.txt
 !config/**/*.json
 !manifests/**/*.json
 !tools/**/*.py
